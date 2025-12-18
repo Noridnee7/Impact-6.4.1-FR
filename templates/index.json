@@ -35,6 +35,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Minecraft_per_davvero.png",
+        "mobile_image": "shopify://shop_images/Minecraft_per_davvero.png",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#252627",
@@ -48,19 +50,47 @@
         "logo_R3MUpQ": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/LEGO_logo_svg.png",
             "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_TeCrJP": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Minecraft_Logo_svg.avif",
+            "logo_width": 200,
+            "link": ""
+          }
+        },
+        "logo_bJm77C": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/MINECRAFT_1.avif",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_JbB3JF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Disney__logo_svg.png",
+            "logo_width": 160,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_R3MUpQ"
+        "logo_R3MUpQ",
+        "logo_TeCrJP",
+        "logo_bJm77C",
+        "logo_JbB3JF"
       ],
       "name": "Magazines",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Vu sur:",
+        "title": "Visto su :",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
@@ -69,7 +99,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "#ffffff",
+        "logo_item_background": "#f0f0f0",
         "logo_item_border": "#ffffff"
       }
     },
@@ -81,37 +111,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Perche_scegliere_i_Blocchi_Creativi_bd0c03f2-5746-493b-a889-3e6aaff4f134.png",
+        "mobile_image": "shopify://shop_images/Perche_scegliere_i_Blocchi_Creativi_bd0c03f2-5746-493b-a889-3e6aaff4f134.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "rich_text_WRccK8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_MCP6fM": {
-          "type": "heading",
-          "settings": {
-            "text": "Elles en parlent le mieux",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_MCP6fM"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#fff5f0",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "image_with_text_overlay_T4PQMt": {
@@ -122,6 +128,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Minecraft_BlockFusion.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -135,10 +142,76 @@
         "item_9daf9C": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/1.png",
             "column_size": "3",
-            "title": "Christine P.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>\"Ma confiance est de retour !\"</strong><br/>La chute de cheveux post-partum m’avait laissée avec des zones clairsemées gênantes… jusqu’à ce que je découvre ce sérum léger. Après 8 semaines d’utilisation, je me sens enfin à l’aise de m’attacher les cheveux à nouveau !</p>",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HmRCFC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BWmNT6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tFae4Q": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bURx8R": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_XrC98L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -146,18 +219,23 @@
         }
       },
       "block_order": [
-        "item_9daf9C"
+        "item_9daf9C",
+        "item_HmRCFC",
+        "item_BWmNT6",
+        "item_tFae4Q",
+        "item_bURx8R",
+        "item_XrC98L"
       ],
       "name": "Avis client avec photo",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "#fff5f0",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -206,17 +284,12 @@
     "featured_product_jWDqw9": {
       "type": "featured-product",
       "blocks": {
-        "liquid_RaqCci": {
-          "type": "liquid",
-          "name": "Avis trustpilot",
+        "image_JAxAhU": {
+          "type": "image",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #00DA8E;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n    Noté 4.8 (732+ avis)\n  </span>\n</div>\n\n</body>\n</html>"
-          }
-        },
-        "title_qpdrVy": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h3"
+            "image": "shopify://shop_images/Minecraft_-_BlockFusion_2.png",
+            "alignment": "start",
+            "max_width": 500
           }
         },
         "separator_VwBkN4": {
@@ -259,13 +332,6 @@
           "disabled": true,
           "settings": {
             "liquid": "<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Affinez votre silhouette plus rapidement</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Réduisez visiblement la cellulite</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 17px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Tonifiez et raffermissez vos jambes et fesses</span>\n</li>"
-          }
-        },
-        "liquid_9QUMDG": {
-          "type": "liquid",
-          "name": "Badges",
-          "settings": {
-            "liquid": "<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Triple bille froide = application précise + massage stimulant + absorption maximale.</span>\n</li> \n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Favorise une repousse homogène</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Cuir chevelu plus sain chaque jour</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 17px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Stoppe la chute dès 2 semaines</span>\n</li>"
           }
         },
         "image_DFMKKc": {
@@ -392,7 +458,7 @@
           "type": "liquid",
           "name": "Code urgence arriere plan rouge",
           "settings": {
-            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 6 Sérums !</div>\n</div>"
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Solo 5 disponibili — spedizione entro 48 ore</div>\n</div>"
           }
         },
         "liquid_DLwPfG": {
@@ -409,12 +475,20 @@
             "liquid": ""
           }
         },
+        "image_dNEcmg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_100_Templates_di_Creative_per_Ads_7_a4482f64-c3cc-4408-8a68-e247d67c1e64.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "buy_buttons_Frx3BE": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#f056a3",
+            "atc_button_background": "#2ca874",
             "atc_button_text_color": "",
             "payment_button_background": "rgba(0,0,0,0)",
             "payment_button_text_color": "rgba(0,0,0,0)"
@@ -434,6 +508,14 @@
           "name": "Logo moyens de paiements",
           "settings": {
             "liquid": "<div style=\"margin-top: -18px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0870/2204/3320/files/badge_paiemejnt.png?v=1736771544\" style=\"width: 100%; margin-bottom: 10px;\">"
+          }
+        },
+        "image_p4cFmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Spedizione_gratuita.png",
+            "alignment": "start",
+            "max_width": 500
           }
         },
         "image_L9CxLd": {
@@ -519,15 +601,13 @@
         }
       },
       "block_order": [
-        "liquid_RaqCci",
-        "title_qpdrVy",
+        "image_JAxAhU",
         "separator_VwBkN4",
         "badges_LY9afh",
         "liquid_JhqBmw",
         "liquid_CQMbXr",
         "liquid_kRHFp8",
         "liquid_WUzM4T",
-        "liquid_9QUMDG",
         "image_DFMKKc",
         "liquid_H9RJWQ",
         "liquid_mgWEc8",
@@ -546,9 +626,11 @@
         "liquid_qKXULc",
         "liquid_DLwPfG",
         "liquid_f43YHT",
+        "image_dNEcmg",
         "buy_buttons_Frx3BE",
         "image_6eCi93",
         "liquid_wjrkyR",
+        "image_p4cFmw",
         "image_L9CxLd",
         "image_QbKfxJ",
         "liquid_GyiEVb",
@@ -563,7 +645,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "minecraft-blockfusion",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
@@ -586,8 +668,8 @@
           "type": "tab",
           "name": "Specifications",
           "settings": {
-            "title": "Comment ça marche ?",
-            "content": "<p><strong>Alvora stimule la repousse</strong> en purifiant le cuir chevelu, en <strong>réveillant les follicules</strong> et en <strong>activant la circulation</strong>. Applique chaque jour, masse légèrement : <strong>fraîcheur immédiate</strong>, <strong>résultats visibles dès 2 à 3 semaines</strong>.</p>",
+            "title": "Da che età si può giocare con BlockFusion?",
+            "content": "<p>BlockFusion è pensato per bambini <strong>a partire dai 3 anni</strong>, con blocchi sicuri e <strong>senza piccole parti staccabili</strong>. È adatto sia ai più piccoli che ai bambini più grandi <strong>fino ai 10 anni (e oltre!)</strong></p>",
             "page": ""
           }
         },
@@ -595,8 +677,8 @@
           "type": "tab",
           "name": "Mode d'emploi",
           "settings": {
-            "title": "Comment l'utiliser ?",
-            "content": "<p>Applique le sérum <strong>directement sur le cuir chevelu</strong>, sec ou légèrement humide, à l’aide de l’embout roll-on.<br/><br/><strong>Masse doucement</strong> avec les doigts pour bien faire pénétrer.<br/><br/>Pas besoin de rincer.<br/><br/>Utilise-le <strong>1 à 2 fois par jour</strong>, de préférence le matin ou après la douche.<br/><br/><strong>Pas d’effet gras, pas de résidu.</strong></p>",
+            "title": "È compatibile con LEGO o altri blocchi?",
+            "content": "<p>I blocchi BlockFusion hanno un <strong>formato unico</strong> e <strong>non si agganciano ai LEGO</strong>, ma <strong>completano perfettamente</strong> gli universi Minecraft/LEGO aggiungendo un’esperienza <strong>magnetica e immersiva.</strong></p>",
             "page": ""
           }
         },
@@ -604,8 +686,8 @@
           "type": "tab",
           "name": "Livraison gratuite",
           "settings": {
-            "title": "Livraison gratuite",
-            "content": "<p>La livraison à domicile est gratuite. En fonction du volume de la commande, le délai de livraison estimé est de <strong>6 à 11 jours ouvrables</strong></p>",
+            "title": "Il gioco contiene schermi o componenti elettronici?",
+            "content": "<p>No, è <strong>100% senza schermo</strong>, senza luci né batterie. Tutto è magnetico e <strong>stimola l’immaginazione</strong>, per un gioco più sano e rilassante.</p>",
             "page": ""
           }
         },
@@ -613,8 +695,8 @@
           "type": "tab",
           "name": "30 jours money back",
           "settings": {
-            "title": "Garantie 30 jours",
-            "content": "<p>Vous disposez de 30 jours pour changer d’avis après réception de votre commande.</p>",
+            "title": "Quanti blocchi ci sono in una confezione?",
+            "content": "<p>Il set standard contiene <strong>250 blocchi magnetici</strong>, <strong>personaggi sorpresa</strong> e <strong>un libretto di sfide</strong>. Più che sufficiente per creare case, cascate, dungeon e <strong>mondi interi</strong>.</p>",
             "page": ""
           }
         },
@@ -622,8 +704,8 @@
           "type": "tab",
           "name": "Contact",
           "settings": {
-            "title": "Contactez-nous 7j/7j",
-            "content": "<p>Notre équipe est là pour vous aider, 7 jours sur 7.<br/><br/>Vous pouvez nous contacter par e-mail.<br/><br/>N’hésitez pas à nous écrire, nous serons ravis de vous assister.</p>",
+            "title": "I blocchi sono davvero magnetici?",
+            "content": "<p>Sì! Ogni blocco contiene <strong>più magneti interni</strong>, così le costruzioni restano stabili <strong>in tutte le direzioni</strong>, anche in <strong>3D verticale</strong>.</p>",
             "page": ""
           }
         }
@@ -649,134 +731,19 @@
         "heading_gradient": ""
       }
     },
-    "rich_text_krR8BP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wBh4dU": {
-          "type": "heading",
-          "settings": {
-            "text": "Elles l’ont adopté… et ne peuvent plus revenir en arrière.",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_wBh4dU"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#fcfbf9",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_RyjPbz": {
-      "type": "multi-column",
-      "blocks": {
-        "item_XWHRAy": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_XWHRAy"
-      ],
-      "name": "Videos clients",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "#fcfbf9",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_kzXeKK": {
-      "type": "multi-column",
-      "blocks": {
-        "item_DkDe7B": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Acide Scalacylique",
-            "heading_tag": "h4",
-            "content": "<p>Cet ingrédient d’origine végétale agit comme un exfoliant naturel pour le cuir chevelu. Il élimine en douceur les impuretés, les pellicules et l’excès de sébum, créant un environnement propre et sain pour favoriser une repousse plus rapide et plus homogène. Idéal pour les cuirs chevelus sensibles.<br/><strong>Résultat: moins de pellicules visibles dès 7 jours</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_DkDe7B"
-      ],
-      "name": "Ingredients",
-      "settings": {
-        "full_width": false,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Des ingredients naturels de qualité",
-        "content": "<p>.</p>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_zTeKM8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cWHzdB": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi Alvaora ?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_cWHzdB"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_7tkfEw": {
+    "image_with_text_overlay_kbJfQE": {
       "type": "image-with-text-overlay",
-      "name": "Comparaison table",
+      "name": "Images avec benefices",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/d444bd0f93e74ba5ac85426af1ae1723.HD-1080p-7.2Mbps-64326796_2.gif",
+        "mobile_image": "shopify://shop_images/d444bd0f93e74ba5ac85426af1ae1723.HD-1080p-7.2Mbps-64326796_2.gif",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#000000",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
@@ -895,18 +862,13 @@
     "image_with_text_overlay_FhdizH",
     "logo_list_c3ppmd",
     "image_with_text_overlay_EtGYza",
-    "rich_text_WRccK8",
     "image_with_text_overlay_T4PQMt",
     "multi_column_tzwVE8",
     "custom_liquid_WVKqBW",
     "rich_text_Khgqwn",
     "featured_product_jWDqw9",
     "tabs_UYNyXK",
-    "rich_text_krR8BP",
-    "multi_column_RyjPbz",
-    "multi_column_kzXeKK",
-    "rich_text_zTeKM8",
-    "image_with_text_overlay_7tkfEw",
+    "image_with_text_overlay_kbJfQE",
     "faq_RQbaAc",
     "1754426774688f8537",
     "contact_RUdcby"
